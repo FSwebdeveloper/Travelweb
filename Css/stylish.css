@@ -1,0 +1,420 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.bg-color
+{
+    background-color: #f7fbfd;
+}
+nav
+{
+    height: 13%;
+    padding: 0 5%;
+    background-color: #fff;
+    
+    
+}
+
+
+h5
+{
+    color: #008AD8;  
+}
+
+.mount-hover:hover
+{
+ color:#008AD8;
+ cursor: pointer;
+}
+
+em
+{
+    color: gray;
+}
+
+hr
+{
+    color:#000;
+    opacity: 100%;
+    border-style: none;
+    border-top-style: solid;
+    border-width: 3px;
+    margin-bottom: 70px;
+    
+}
+
+.Trek-title
+{
+    font-weight: bold;
+    font-size: 3.7rem;
+
+}
+
+.button-color
+{
+    background-color:#01b5e3;
+    color: #fefffe;
+    font-size: 1.3rem;
+    border:#01b5e3 1px solid;
+}
+
+.button-color:hover
+{
+    background-color: #5ad3f1;
+}
+
+.buttn-color
+{
+    background-color: #a8e7c5;
+    border: gray 2px solid;
+    
+}
+
+.buttn-color:hover
+{
+    background-color: gray;
+    color: #fff;
+    
+    
+}
+
+span
+{
+    color: #01b5e3;
+}
+
+
+.nav-link
+{
+    font-size: 1.1rem;
+    
+    
+}
+
+strong
+{
+    font-size: 1.5rem;
+}
+
+.container
+{
+    
+    margin-top: 85px;
+    padding: 0 12%;
+    
+    
+    
+}
+
+.intro
+{
+    margin-top: 150px;
+    padding: 3% 5%;
+    background-color: #fff;
+    
+}
+
+.S-trek
+{
+    font-size: 2.3rem;
+}
+
+.trek-name
+{
+    line-height: .7;
+    font-weight: bold;
+    color: #008AD8;
+    font-size: 1.2rem;
+}
+
+.Trek-title
+{
+    margin-bottom: 40px;
+}
+
+.time-date
+{
+    display: flex;
+    gap: 10px;
+}
+
+.Travel-section
+{
+    padding: 0 10% 0 10%;
+    background-color: #eeeeee;
+}
+
+.Travel-post
+{
+   width: 62%; 
+}
+
+.Tour-intro
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: gray;
+    line-height: .3;
+}
+
+.Travel-img
+{
+    background: url(https://trekolo.com/wp-content/uploads/2022/03/davide-sacchet-RYN-kov1lTY-unsplash-scaled-1019x1024.jpg);
+    background-size: cover;
+    height: 340px;
+    margin-top: 80px;
+    margin-left: 40px;
+   
+    
+    
+    
+
+}
+
+.Post-info
+{
+  margin-bottom: 30px;
+  font-size: 1.04rem;
+}
+
+.Post-info-h
+{
+    font-size: 1.04rem;
+}
+
+.Tra-info
+{
+    padding: 5% 3% 0 3%; 
+    
+    
+    
+}
+
+.pre-post
+{
+    margin-top: 0px;
+    
+}
+
+.white-div
+{
+    background-color:#fefffe;
+    height: 35px;
+    
+}
+
+.previous
+{
+    background-color:  #f7fbfd;
+    margin-top: 10px;
+    
+}
+
+.More-post
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Slider-div
+{
+    padding: 4% 3% 6% 3%;
+    background-color: #edf3f6;
+}
+
+.More-post-section
+{
+    padding: 0 10% 0 10%;
+}
+
+.M-slider
+{
+    
+    padding: 2% 3%;
+    background-color:#fefffe;
+    margin-top: 20px;
+}
+
+.carosal-button
+{
+    background-color: black;
+    width: 30px;
+    height: 50px;
+    margin-top: 50px;
+    opacity: 0.2;
+}
+
+.fa-size
+{
+    color: #fff;
+}
+
+.contact-trekolo
+{
+    margin-top: -130px;
+    
+    
+}
+
+.contact-info
+{
+    background-color: #f7fbfd;
+    
+    
+}
+
+.con-tab
+{
+    width: 100%;
+    height: 35px;
+    border: lightgray 1px solid;
+}
+
+.con-tab:hover
+{
+    border: #000 1px solid;
+}
+
+.comment-Sec
+{
+   width: 100%;
+   margin-top: 50px;
+   border: lightgray 1px solid;
+}
+
+.comment-Sec:hover
+{
+    border: #000 1px solid;
+}
+
+.contact-intro
+{
+    margin-bottom: 30px;
+}
+
+.social-tab
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+@media (max-width:990px){
+  .Travel-post
+  {
+    width: 100%;
+  }  
+
+  .Travel-img
+  {
+    height: 600px;
+    margin-left: 10px;
+  }
+
+  .contact-trekolo
+    {
+        padding: 0;
+        
+    }
+
+    .silder-3
+    {
+        display: none;
+    }
+
+    
+    
+    
+    
+    
+
+}
+
+@media (max-width:767px){
+    .col-lg-4
+    {
+        padding: 2% 0 2% 0;
+    }
+
+    .contact-div
+    {
+        margin-left: -10px;
+    }
+
+    .comment-Sec
+    {
+        margin-left: -10px;
+        width: 105%;
+    }
+
+    .btn-primary
+    {
+        margin-left: -10px;
+    }
+}
+
+
+
+@media (max-width:700px){
+    .Travel-post
+    {
+      width: 100%;
+    }  
+  
+    body
+    {
+        width: 700px;
+    }
+
+    .comment-Sec
+    {
+        width: 100%;
+    }
+
+    .social-tab
+    {
+        width: 100%;
+        margin-left: 1px;
+    }
+    
+    .contact-trekolo
+    {
+        padding: 0;
+        
+    }
+
+    .con-tab
+    {
+        width: 100%;
+    }
+
+    .contact-div
+    {
+        margin-left: 0px;
+    }
+
+    .comment-Sec
+    {
+        margin-left: 0px;
+        
+    }
+
+    .btn-primary
+    {
+        margin-left: 0px;
+    }
+    
+    
+
+
+  }
+
+
+
